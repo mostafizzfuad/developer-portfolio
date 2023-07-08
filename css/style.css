@@ -4,9 +4,11 @@
 /* ***** global css start ****** */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.global-btn {
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -17,11 +19,20 @@ body {
     padding: 15px 35px;
 }
 
+/* **** header css start ***** */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 /* ***** nav css start ****** */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-logo {
@@ -44,4 +55,33 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* ****** banner css start ******* */
+.banner {
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner img {
+    width: 500px;
+}
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.banner-content {
+    max-width: 520px;
+}
+.banner-content p {
+    margin: 15px 0 25px;
 }
