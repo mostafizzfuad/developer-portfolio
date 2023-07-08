@@ -41,17 +41,21 @@ nav {
     font-size: 45px;
     font-weight: 800;
 }
+
 .orange-text {
     color: #FD6E0A;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 51px;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
@@ -64,14 +68,17 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
+
 .banner img {
     width: 500px;
 }
+
 .banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
+
 .banner-title {
     font-size: 65px;
     font-style: normal;
@@ -79,9 +86,122 @@ nav a {
     margin-top: 5px;
     margin-bottom: 0;
 }
+
 .banner-content {
     max-width: 520px;
 }
+
 .banner-content p {
     margin: 15px 0 25px;
+}
+
+
+/* ****** main css start ******* */
+.container {
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+
+/* ****** about css start ******* */
+.about {
+    padding: 100px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+}
+
+.section-description {
+    max-width: 710px;
+    margin: auto;
+    color: #757575;
+    font-size: 16px;
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+
+/* ***** service css start ****** */
+.service-container {
+    display: flex;
+    gap: 24px;
+}
+.service-section .section-title {
+    text-align: center;
+}
+
+.service {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+
+/* ****** resume css start ******* */
+.column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.download-cv {
+    text-align: center;
+}
+.resume .section-title {
+    text-align: center;
+}
+
+
+/* ****** footer css start ****** */
+footer {
+    background-color: #FFF8F3;
+    padding: 50px 0;
+}
+
+.foot-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    display: block;
+    margin-bottom: 30px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+.social-link a {
+    margin-right: 25px;
+}
+footer .section-description {
+    margin-bottom: 25px;
 }
